@@ -113,7 +113,7 @@ Incremental loading is critical for blockchain-scale datasets.
 
 ---
 
-## ✅ Testing in dbt
+##  Testing in dbt
 
 Testing ensures data reliability and trustworthiness.
 
