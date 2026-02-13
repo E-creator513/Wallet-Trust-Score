@@ -1,0 +1,24 @@
+[2026-02-12T10:58:05.536+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T10:56:00+00:00 [queued]>
+[2026-02-12T10:58:05.545+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T10:56:00+00:00 [queued]>
+[2026-02-12T10:58:05.546+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-12T10:58:05.562+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_eth_to_mongo> on 2026-02-12 10:56:00+00:00
+[2026-02-12T10:58:05.571+0000] {standard_task_runner.py:60} INFO - Started process 105 to run task
+[2026-02-12T10:58:05.575+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ethereum_pipeline', 'fetch_eth_to_mongo', 'scheduled__2026-02-12T10:56:00+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/eth_pipeline_dag.py', '--cfg-path', '/tmp/tmpqh6x6pje']
+[2026-02-12T10:58:05.578+0000] {standard_task_runner.py:88} INFO - Job 269: Subtask fetch_eth_to_mongo
+[2026-02-12T10:58:05.650+0000] {task_command.py:423} INFO - Running <TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T10:56:00+00:00 [running]> on host 810c38b644b1
+[2026-02-12T10:58:05.812+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ethereum_pipeline' AIRFLOW_CTX_TASK_ID='fetch_eth_to_mongo' AIRFLOW_CTX_EXECUTION_DATE='2026-02-12T10:56:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-12T10:56:00+00:00'
+[2026-02-12T10:58:06.529+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/eth_fetch_to_mongo.py", line 17, in fetch_blocks_to_mongo
+    latest_block = int(r["result"], 16)
+ValueError: invalid literal for int() with base 16: 'You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration'
+[2026-02-12T10:58:06.547+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=ethereum_pipeline, task_id=fetch_eth_to_mongo, execution_date=20260212T105600, start_date=20260212T105805, end_date=20260212T105806
+[2026-02-12T10:58:06.565+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 269 for task fetch_eth_to_mongo (invalid literal for int() with base 16: 'You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration'; 105)
+[2026-02-12T10:58:06.593+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-12T10:58:06.621+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

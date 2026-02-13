@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_transactions
+    description: "Cleaned Ethereum transactions"
+    columns:
+      - name: tx_hash
+        tests:
+          - unique
+          - not_null

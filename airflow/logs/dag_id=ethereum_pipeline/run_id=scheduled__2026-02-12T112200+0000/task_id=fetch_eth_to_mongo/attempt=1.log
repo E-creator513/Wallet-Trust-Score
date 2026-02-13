@@ -1,0 +1,14 @@
+[2026-02-12T11:24:02.794+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T11:22:00+00:00 [queued]>
+[2026-02-12T11:24:02.803+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T11:22:00+00:00 [queued]>
+[2026-02-12T11:24:02.804+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-12T11:24:02.818+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_eth_to_mongo> on 2026-02-12 11:22:00+00:00
+[2026-02-12T11:24:02.822+0000] {standard_task_runner.py:60} INFO - Started process 152 to run task
+[2026-02-12T11:24:02.826+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ethereum_pipeline', 'fetch_eth_to_mongo', 'scheduled__2026-02-12T11:22:00+00:00', '--job-id', '353', '--raw', '--subdir', 'DAGS_FOLDER/eth_pipeline_dag.py', '--cfg-path', '/tmp/tmpd93rsq41']
+[2026-02-12T11:24:02.829+0000] {standard_task_runner.py:88} INFO - Job 353: Subtask fetch_eth_to_mongo
+[2026-02-12T11:24:02.896+0000] {task_command.py:423} INFO - Running <TaskInstance: ethereum_pipeline.fetch_eth_to_mongo scheduled__2026-02-12T11:22:00+00:00 [running]> on host 7059940a80f4
+[2026-02-12T11:24:03.007+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ethereum_pipeline' AIRFLOW_CTX_TASK_ID='fetch_eth_to_mongo' AIRFLOW_CTX_EXECUTION_DATE='2026-02-12T11:22:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-12T11:22:00+00:00'
+[2026-02-12T11:24:03.714+0000] {logging_mixin.py:188} INFO - ❌ Error fetching latest block: invalid literal for int() with base 10: 'You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration'
+[2026-02-12T11:24:03.716+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-02-12T11:24:03.728+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ethereum_pipeline, task_id=fetch_eth_to_mongo, execution_date=20260212T112200, start_date=20260212T112402, end_date=20260212T112403
+[2026-02-12T11:24:03.764+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-12T11:24:03.789+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

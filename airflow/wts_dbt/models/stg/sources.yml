@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ethereum
+    schema: public     
+    tables:
+      - name: transactions
+      - name: blocks

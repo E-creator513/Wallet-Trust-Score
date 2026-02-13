@@ -1,0 +1,111 @@
+[0m13:35:11.596475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF2345BBF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF235BC740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF26CA3530>]}
+
+
+============================== 13:35:11.602350 | 470d1515-1ce4-49e6-bcf7-91a6034417f1 ==============================
+[0m13:35:11.602350 [info ] [MainThread]: Running with dbt=1.11.3
+[0m13:35:11.603347 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'None', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'no_print': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'use_experimental_parser': 'False'}
+[0m13:35:20.097897 [debug] [MainThread]: Starter project path: C:\Python312\Lib\site-packages\dbt\include\starter_project
+[0m13:35:20.126177 [info ] [MainThread]: 
+Your new dbt project "blockchain" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:35:20.126704 [info ] [MainThread]: Setting up your profile.
+[0m13:35:24.815057 [error] [MainThread]: Encountered an error:
+list index out of range
+[0m13:35:24.818846 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 243, in ask_for_adapter_choice
+    return available_adapters[numeric_choice - 1]
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+[0m13:35:24.821846 [debug] [MainThread]: Command `dbt init` failed at 13:35:24.820846 after 13.40 seconds
+[0m13:35:24.821846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF26111AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF26F02E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF26CF7B60>]}
+[0m13:35:24.822846 [debug] [MainThread]: Flushing usage events
+[0m13:35:25.433392 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:35:31.004909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F48879640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F48C687A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F48C69F10>]}
+
+
+============================== 13:35:31.008905 | 45fa4338-cdfa-4a46-9f62-fc8d4ffe5e7c ==============================
+[0m13:35:31.008905 [info ] [MainThread]: Running with dbt=1.11.3
+[0m13:35:31.009992 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'None', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m13:35:35.712520 [info ] [MainThread]: A project called blockchain already exists here.
+[0m13:35:35.715521 [debug] [MainThread]: Command `dbt init` succeeded at 13:35:35.714526 after 4.84 seconds
+[0m13:35:35.716633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F492512E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F4610C7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014F47CBBAD0>]}
+[0m13:35:35.717159 [debug] [MainThread]: Flushing usage events
+[0m13:35:36.252975 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:36:07.863295 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED29080B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED4F50A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED4F509B0>]}
+
+
+============================== 13:36:07.867175 | ae55020c-8f3c-4c02-aa5d-0cd2c41c6fd9 ==============================
+[0m13:36:07.867175 [info ] [MainThread]: Running with dbt=1.11.3
+[0m13:36:07.868172 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'None', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt init', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m13:36:32.831898 [debug] [MainThread]: Starter project path: C:\Python312\Lib\site-packages\dbt\include\starter_project
+[0m13:36:32.847808 [info ] [MainThread]: 
+Your new dbt project "blockchain" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:36:32.848808 [info ] [MainThread]: Setting up your profile.
+[0m13:36:38.263362 [error] [MainThread]: Encountered an error:
+list index out of range
+[0m13:36:38.266023 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\dbt\task\init.py", line 243, in ask_for_adapter_choice
+    return available_adapters[numeric_choice - 1]
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+[0m13:36:38.268026 [debug] [MainThread]: Command `dbt init` failed at 13:36:38.268026 after 30.54 seconds
+[0m13:36:38.269025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED29080B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED6A88440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014ED5946720>]}
+[0m13:36:38.269025 [debug] [MainThread]: Flushing usage events
+[0m13:36:38.888404 [debug] [MainThread]: An error was encountered while trying to flush usage events

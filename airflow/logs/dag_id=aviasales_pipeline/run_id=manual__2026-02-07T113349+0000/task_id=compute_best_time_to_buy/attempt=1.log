@@ -1,0 +1,15 @@
+[2026-02-07T11:34:01.479+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: aviasales_pipeline.compute_best_time_to_buy manual__2026-02-07T11:33:49+00:00 [queued]>
+[2026-02-07T11:34:01.489+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: aviasales_pipeline.compute_best_time_to_buy manual__2026-02-07T11:33:49+00:00 [queued]>
+[2026-02-07T11:34:01.489+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-07T11:34:01.504+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): compute_best_time_to_buy> on 2026-02-07 11:33:49+00:00
+[2026-02-07T11:34:01.509+0000] {standard_task_runner.py:60} INFO - Started process 300 to run task
+[2026-02-07T11:34:01.512+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'aviasales_pipeline', 'compute_best_time_to_buy', 'manual__2026-02-07T11:33:49+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/aviasales_pipeline.py', '--cfg-path', '/tmp/tmp_wsq4uo5']
+[2026-02-07T11:34:01.514+0000] {standard_task_runner.py:88} INFO - Job 156: Subtask compute_best_time_to_buy
+[2026-02-07T11:34:01.578+0000] {task_command.py:423} INFO - Running <TaskInstance: aviasales_pipeline.compute_best_time_to_buy manual__2026-02-07T11:33:49+00:00 [running]> on host 10aeb3f48925
+[2026-02-07T11:34:01.684+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='aviasales_pipeline' AIRFLOW_CTX_TASK_ID='compute_best_time_to_buy' AIRFLOW_CTX_EXECUTION_DATE='2026-02-07T11:33:49+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-07T11:33:49+00:00'
+[2026-02-07T11:34:01.702+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/aviasales_pipeline.py:131 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2026-02-07T11:34:01.711+0000] {logging_mixin.py:188} INFO - ⚠️ No valid data to compute best time to buy tickets.
+[2026-02-07T11:34:01.712+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-02-07T11:34:01.725+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=aviasales_pipeline, task_id=compute_best_time_to_buy, execution_date=20260207T113349, start_date=20260207T113401, end_date=20260207T113401
+[2026-02-07T11:34:01.765+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-07T11:34:01.789+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2026-02-12T12:19:59.760+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo manual__2026-02-12T12:19:55.428552+00:00 [queued]>
+[2026-02-12T12:19:59.770+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ethereum_pipeline.fetch_eth_to_mongo manual__2026-02-12T12:19:55.428552+00:00 [queued]>
+[2026-02-12T12:19:59.770+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-12T12:19:59.785+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_eth_to_mongo> on 2026-02-12 12:19:55.428552+00:00
+[2026-02-12T12:19:59.788+0000] {standard_task_runner.py:60} INFO - Started process 146 to run task
+[2026-02-12T12:19:59.792+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ethereum_pipeline', 'fetch_eth_to_mongo', 'manual__2026-02-12T12:19:55.428552+00:00', '--job-id', '512', '--raw', '--subdir', 'DAGS_FOLDER/eth_pipeline_dag.py', '--cfg-path', '/tmp/tmpbw31zlue']
+[2026-02-12T12:19:59.795+0000] {standard_task_runner.py:88} INFO - Job 512: Subtask fetch_eth_to_mongo
+[2026-02-12T12:19:59.864+0000] {task_command.py:423} INFO - Running <TaskInstance: ethereum_pipeline.fetch_eth_to_mongo manual__2026-02-12T12:19:55.428552+00:00 [running]> on host 6a2d57718d6a
+[2026-02-12T12:20:00.005+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ethereum_pipeline' AIRFLOW_CTX_TASK_ID='fetch_eth_to_mongo' AIRFLOW_CTX_EXECUTION_DATE='2026-02-12T12:19:55.428552+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-12T12:19:55.428552+00:00'
+[2026-02-12T12:20:13.357+0000] {logging_mixin.py:188} INFO - ✅ Latest blocks & transactions stored in MongoDB
+[2026-02-12T12:20:13.358+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-02-12T12:20:13.377+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ethereum_pipeline, task_id=fetch_eth_to_mongo, execution_date=20260212T121955, start_date=20260212T121959, end_date=20260212T122013
+[2026-02-12T12:20:13.434+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-12T12:20:13.461+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

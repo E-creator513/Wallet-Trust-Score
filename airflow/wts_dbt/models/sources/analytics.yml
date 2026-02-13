@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: analytics        
+    database: analytics    # optional if same as target
+    schema: public         #  schema your tables live in
+    tables:
+      - name: transactions
+      - name: blocks

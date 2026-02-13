@@ -1,0 +1,31 @@
+name: 'wts_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'wts_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  wts_dbt:
+    stg:
+      +schema: stg
+      +tags: ["stg"]
+    ods:
+      +schema: ods
+      +tags: ["ods"]
+    dwh:
+      +schema: dwh
+      +tags: ["dwh"]
+    dm:
+      +schema: dm
+      +tags: ["dm"]
