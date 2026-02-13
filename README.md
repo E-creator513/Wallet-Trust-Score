@@ -13,6 +13,8 @@ The architecture follows modern data engineering principles:
 - Automated testing and documentation
 - Orchestrated execution via Airflow
 
+
+![image](https://github.com/E-creator513/EL-process8/blob/master/airf.png)
 The objective is to demonstrate best practices in building production-style analytical pipelines.
 
 ---

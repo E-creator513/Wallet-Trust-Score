@@ -432,3 +432,311 @@
 [2026-02-13T09:17:37.384+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:17:37.384+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-02-13T09:17:37.412+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:17:37.412+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:16:00+00:00, run_after=2026-02-13 09:18:00+00:00
 [2026-02-13T09:17:37.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.307 seconds
+[2026-02-13T09:18:07.691+0000] {processor.py:161} INFO - Started process (PID=2290) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:07.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:18:07.695+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:07.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:09.010+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:09.041+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:09.041+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:18:09.070+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:09.070+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:18:00+00:00, run_after=2026-02-13 09:20:00+00:00
+[2026-02-13T09:18:09.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.406 seconds
+[2026-02-13T09:18:39.933+0000] {processor.py:161} INFO - Started process (PID=2347) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:39.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:18:39.935+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:39.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:40.903+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:18:40.931+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:40.930+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:18:40.957+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:18:40.957+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:18:00+00:00, run_after=2026-02-13 09:20:00+00:00
+[2026-02-13T09:18:40.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.049 seconds
+[2026-02-13T09:19:11.147+0000] {processor.py:161} INFO - Started process (PID=2365) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:11.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:19:11.149+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:11.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:12.098+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:12.125+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:12.125+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:19:12.152+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:12.152+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:18:00+00:00, run_after=2026-02-13 09:20:00+00:00
+[2026-02-13T09:19:12.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.031 seconds
+[2026-02-13T09:19:42.346+0000] {processor.py:161} INFO - Started process (PID=2383) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:42.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:19:42.348+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:42.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:43.300+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:19:43.325+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:43.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:19:43.351+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:19:43.351+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:18:00+00:00, run_after=2026-02-13 09:20:00+00:00
+[2026-02-13T09:19:43.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.032 seconds
+[2026-02-13T09:20:13.601+0000] {processor.py:161} INFO - Started process (PID=2422) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:13.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:20:13.604+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:13.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:14.673+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:14.719+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:14.718+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:20:14.754+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:14.753+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:20:00+00:00, run_after=2026-02-13 09:22:00+00:00
+[2026-02-13T09:20:14.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.242 seconds
+[2026-02-13T09:20:45.161+0000] {processor.py:161} INFO - Started process (PID=2479) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:45.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:20:45.163+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:45.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:46.214+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:20:46.242+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:46.241+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:20:46.271+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:20:46.270+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:20:00+00:00, run_after=2026-02-13 09:22:00+00:00
+[2026-02-13T09:20:46.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.134 seconds
+[2026-02-13T09:21:16.536+0000] {processor.py:161} INFO - Started process (PID=2497) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:16.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:21:16.540+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:16.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:17.609+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:17.638+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:17.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:21:17.665+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:17.665+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:20:00+00:00, run_after=2026-02-13 09:22:00+00:00
+[2026-02-13T09:21:17.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.154 seconds
+[2026-02-13T09:21:47.913+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:47.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:21:47.915+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:47.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:49.058+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:21:49.084+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:49.084+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:21:49.109+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:21:49.109+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:20:00+00:00, run_after=2026-02-13 09:22:00+00:00
+[2026-02-13T09:21:49.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.223 seconds
+[2026-02-13T09:22:19.345+0000] {processor.py:161} INFO - Started process (PID=2554) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:19.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:22:19.347+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:19.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:20.768+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:20.796+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:20.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:22:20.825+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:20.824+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:22:00+00:00, run_after=2026-02-13 09:24:00+00:00
+[2026-02-13T09:22:20.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.507 seconds
+[2026-02-13T09:22:50.991+0000] {processor.py:161} INFO - Started process (PID=2611) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:50.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:22:50.994+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:50.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:51.982+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:22:52.008+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:52.007+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:22:52.033+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:22:52.033+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:22:00+00:00, run_after=2026-02-13 09:24:00+00:00
+[2026-02-13T09:22:52.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.067 seconds
+[2026-02-13T09:23:22.284+0000] {processor.py:161} INFO - Started process (PID=2629) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:22.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:23:22.286+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:22.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:23.297+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:23.325+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:23.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:23:23.352+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:23.352+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:22:00+00:00, run_after=2026-02-13 09:24:00+00:00
+[2026-02-13T09:23:23.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.094 seconds
+[2026-02-13T09:23:53.525+0000] {processor.py:161} INFO - Started process (PID=2647) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:53.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:23:53.527+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:53.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:54.463+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:23:54.490+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:54.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:23:54.515+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:23:54.515+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:22:00+00:00, run_after=2026-02-13 09:24:00+00:00
+[2026-02-13T09:23:54.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.016 seconds
+[2026-02-13T09:24:24.752+0000] {processor.py:161} INFO - Started process (PID=2707) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:24.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:24:24.757+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:24.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:25.881+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:25.912+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:25.911+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:24:25.940+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:25.939+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:24:00+00:00, run_after=2026-02-13 09:26:00+00:00
+[2026-02-13T09:24:25.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.217 seconds
+[2026-02-13T09:24:56.033+0000] {processor.py:161} INFO - Started process (PID=2743) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:56.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:24:56.037+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:56.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:57.024+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:24:57.051+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:57.050+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:24:57.076+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:24:57.075+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:24:00+00:00, run_after=2026-02-13 09:26:00+00:00
+[2026-02-13T09:24:57.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.068 seconds
+[2026-02-13T09:25:27.245+0000] {processor.py:161} INFO - Started process (PID=2761) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:27.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:25:27.247+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:27.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:28.231+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:28.258+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:28.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:25:28.285+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:28.285+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:24:00+00:00, run_after=2026-02-13 09:26:00+00:00
+[2026-02-13T09:25:28.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.067 seconds
+[2026-02-13T09:25:58.506+0000] {processor.py:161} INFO - Started process (PID=2779) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:58.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:25:58.509+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:58.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:59.455+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:25:59.483+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:59.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:25:59.509+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:25:59.509+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:24:00+00:00, run_after=2026-02-13 09:26:00+00:00
+[2026-02-13T09:25:59.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.028 seconds
+[2026-02-13T09:26:29.729+0000] {processor.py:161} INFO - Started process (PID=2841) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:26:29.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:26:29.731+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:26:29.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:26:30.754+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:26:30.780+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:26:30.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:26:30.813+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:26:30.813+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:26:00+00:00, run_after=2026-02-13 09:28:00+00:00
+[2026-02-13T09:26:30.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.113 seconds
+[2026-02-13T09:27:00.929+0000] {processor.py:161} INFO - Started process (PID=2875) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:00.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:27:00.931+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:00.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:01.865+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:01.891+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:01.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:27:01.919+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:01.918+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:26:00+00:00, run_after=2026-02-13 09:28:00+00:00
+[2026-02-13T09:27:01.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.014 seconds
+[2026-02-13T09:27:32.161+0000] {processor.py:161} INFO - Started process (PID=2893) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:32.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:27:32.163+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:32.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:33.274+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:27:33.300+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:33.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:27:33.326+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:27:33.325+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:26:00+00:00, run_after=2026-02-13 09:28:00+00:00
+[2026-02-13T09:27:33.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.190 seconds
+[2026-02-13T09:28:03.387+0000] {processor.py:161} INFO - Started process (PID=2921) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:03.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:28:03.389+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:03.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:04.577+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:04.610+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:04.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:28:04.642+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:04.642+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:28:00+00:00, run_after=2026-02-13 09:30:00+00:00
+[2026-02-13T09:28:04.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.289 seconds
+[2026-02-13T09:28:34.768+0000] {processor.py:161} INFO - Started process (PID=2989) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:34.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:28:34.770+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:34.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:35.793+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:28:35.820+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:35.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:28:35.846+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:28:35.846+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:28:00+00:00, run_after=2026-02-13 09:30:00+00:00
+[2026-02-13T09:28:35.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.103 seconds
+[2026-02-13T09:29:05.980+0000] {processor.py:161} INFO - Started process (PID=3007) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:05.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:29:05.982+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:05.982+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:06.935+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:06.961+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:06.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:29:06.986+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:06.986+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:28:00+00:00, run_after=2026-02-13 09:30:00+00:00
+[2026-02-13T09:29:07.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.030 seconds
+[2026-02-13T09:29:37.217+0000] {processor.py:161} INFO - Started process (PID=3025) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:37.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:29:37.219+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:37.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:38.239+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:29:38.268+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:38.268+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:29:38.295+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:29:38.294+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:28:00+00:00, run_after=2026-02-13 09:30:00+00:00
+[2026-02-13T09:29:38.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.102 seconds
+[2026-02-13T09:30:08.603+0000] {processor.py:161} INFO - Started process (PID=3064) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:08.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:30:08.606+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:08.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:10.204+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:10.252+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:10.250+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:30:10.303+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:10.303+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:30:00+00:00, run_after=2026-02-13 09:32:00+00:00
+[2026-02-13T09:30:10.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.750 seconds
+[2026-02-13T09:30:40.705+0000] {processor.py:161} INFO - Started process (PID=3121) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:40.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:30:40.707+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:40.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:41.778+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:30:41.806+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:41.805+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:30:41.837+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:30:41.837+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:30:00+00:00, run_after=2026-02-13 09:32:00+00:00
+[2026-02-13T09:30:41.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.161 seconds
+[2026-02-13T09:31:11.949+0000] {processor.py:161} INFO - Started process (PID=3139) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:11.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:31:11.959+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:11.958+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:13.175+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:13.202+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:13.201+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:31:13.228+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:13.228+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:30:00+00:00, run_after=2026-02-13 09:32:00+00:00
+[2026-02-13T09:31:13.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.308 seconds
+[2026-02-13T09:31:43.329+0000] {processor.py:161} INFO - Started process (PID=3157) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:43.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:31:43.331+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:43.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:44.531+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:31:44.558+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:44.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:31:44.583+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:31:44.583+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:30:00+00:00, run_after=2026-02-13 09:32:00+00:00
+[2026-02-13T09:31:44.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.280 seconds
+[2026-02-13T09:32:15.594+0000] {processor.py:161} INFO - Started process (PID=3198) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:15.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:32:15.596+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:15.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:16.670+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:16.702+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:16.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:32:16.730+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:16.730+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:32:00+00:00, run_after=2026-02-13 09:34:00+00:00
+[2026-02-13T09:32:16.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.162 seconds
+[2026-02-13T09:32:46.813+0000] {processor.py:161} INFO - Started process (PID=3253) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:46.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:32:46.816+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:46.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:47.772+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:32:47.812+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:47.811+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:32:47.841+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:32:47.841+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:32:00+00:00, run_after=2026-02-13 09:34:00+00:00
+[2026-02-13T09:32:47.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.056 seconds
+[2026-02-13T09:33:18.098+0000] {processor.py:161} INFO - Started process (PID=3271) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:18.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:33:18.100+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:18.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:19.237+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:19.266+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:19.265+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:33:19.296+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:19.296+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:32:00+00:00, run_after=2026-02-13 09:34:00+00:00
+[2026-02-13T09:33:19.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.228 seconds
+[2026-02-13T09:33:49.506+0000] {processor.py:161} INFO - Started process (PID=3289) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:49.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:33:49.508+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:49.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:50.506+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:33:50.532+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:50.532+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:33:50.558+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:33:50.558+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:32:00+00:00, run_after=2026-02-13 09:34:00+00:00
+[2026-02-13T09:33:50.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.078 seconds
+[2026-02-13T09:34:20.806+0000] {processor.py:161} INFO - Started process (PID=3328) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:20.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:34:20.809+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:20.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:22.194+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:22.232+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:22.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:34:22.296+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:22.296+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:34:00+00:00, run_after=2026-02-13 09:36:00+00:00
+[2026-02-13T09:34:22.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.535 seconds
+[2026-02-13T09:34:52.593+0000] {processor.py:161} INFO - Started process (PID=3385) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:52.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:34:52.595+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:52.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:53.839+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:34:53.870+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:53.869+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:34:53.899+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:34:53.899+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:34:00+00:00, run_after=2026-02-13 09:36:00+00:00
+[2026-02-13T09:34:53.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.338 seconds
+[2026-02-13T09:35:24.046+0000] {processor.py:161} INFO - Started process (PID=3403) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:24.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:35:24.049+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:24.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:25.036+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:25.063+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:25.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:35:25.090+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:25.089+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:34:00+00:00, run_after=2026-02-13 09:36:00+00:00
+[2026-02-13T09:35:25.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.070 seconds
+[2026-02-13T09:35:55.400+0000] {processor.py:161} INFO - Started process (PID=3421) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:55.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:35:55.404+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:55.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:56.442+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:35:56.474+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:56.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:35:56.504+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:35:56.504+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:34:00+00:00, run_after=2026-02-13 09:36:00+00:00
+[2026-02-13T09:35:56.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.133 seconds
+[2026-02-13T09:36:26.618+0000] {processor.py:161} INFO - Started process (PID=3481) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:26.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:36:26.626+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:36:26.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:27.925+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:27.960+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:36:27.959+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:36:28.011+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:36:28.010+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:36:00+00:00, run_after=2026-02-13 09:38:00+00:00
+[2026-02-13T09:36:28.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.443 seconds
+[2026-02-13T09:36:58.936+0000] {processor.py:161} INFO - Started process (PID=3517) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:58.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:36:58.939+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:36:58.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:59.945+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:36:59.974+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:36:59.974+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:37:00.002+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:37:00.002+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:36:00+00:00, run_after=2026-02-13 09:38:00+00:00
+[2026-02-13T09:37:00.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.095 seconds
+[2026-02-13T09:37:30.216+0000] {processor.py:161} INFO - Started process (PID=3535) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:37:30.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:37:30.218+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:37:30.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:37:31.192+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:37:31.221+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:37:31.220+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:37:31.246+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:37:31.246+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:36:00+00:00, run_after=2026-02-13 09:38:00+00:00
+[2026-02-13T09:37:31.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.055 seconds
+[2026-02-13T09:38:01.437+0000] {processor.py:161} INFO - Started process (PID=3555) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:01.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:38:01.440+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:01.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:02.969+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:03.002+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:03.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:38:03.036+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:03.036+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:38:00+00:00, run_after=2026-02-13 09:40:00+00:00
+[2026-02-13T09:38:03.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.645 seconds
+[2026-02-13T09:38:33.707+0000] {processor.py:161} INFO - Started process (PID=3631) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:33.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:38:33.709+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:33.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:34.802+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:38:34.828+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:34.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:38:34.853+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:38:34.853+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:38:00+00:00, run_after=2026-02-13 09:40:00+00:00
+[2026-02-13T09:38:34.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.172 seconds
+[2026-02-13T09:39:05.134+0000] {processor.py:161} INFO - Started process (PID=3649) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:05.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:39:05.138+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:05.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:06.264+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:06.291+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:06.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:39:06.317+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:06.317+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:38:00+00:00, run_after=2026-02-13 09:40:00+00:00
+[2026-02-13T09:39:06.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.215 seconds
+[2026-02-13T09:39:36.556+0000] {processor.py:161} INFO - Started process (PID=3667) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:36.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:39:36.558+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:36.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:37.550+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:39:37.577+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:37.576+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:39:37.609+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:39:37.609+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:38:00+00:00, run_after=2026-02-13 09:40:00+00:00
+[2026-02-13T09:39:37.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.080 seconds
+[2026-02-13T09:40:07.843+0000] {processor.py:161} INFO - Started process (PID=3706) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:07.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:40:07.845+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:07.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:08.999+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:09.039+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:09.038+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:40:09.071+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:09.070+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:40:00+00:00, run_after=2026-02-13 09:42:00+00:00
+[2026-02-13T09:40:09.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.254 seconds
+[2026-02-13T09:40:39.388+0000] {processor.py:161} INFO - Started process (PID=3763) to work on /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:39.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eth_pipeline_dag.py for tasks to queue
+[2026-02-13T09:40:39.391+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:39.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:40.479+0000] {processor.py:840} INFO - DAG(s) 'ethereum_pipeline' retrieved from /opt/airflow/dags/eth_pipeline_dag.py
+[2026-02-13T09:40:40.510+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:40.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-13T09:40:40.539+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:40:40.539+0000] {dag.py:3823} INFO - Setting next_dagrun for ethereum_pipeline to 2026-02-13 09:40:00+00:00, run_after=2026-02-13 09:42:00+00:00
+[2026-02-13T09:40:40.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eth_pipeline_dag.py took 1.179 seconds
