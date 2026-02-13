@@ -20,7 +20,7 @@ def incremental_wts():
         password="airflow"
     )
     # ... rest of the function here ...
-    print("✅ WTS task done.")
+    print("WTS task done.")
 
 # ----------------------------- DAG -----------------------------
 with DAG(

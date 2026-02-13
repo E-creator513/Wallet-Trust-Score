@@ -228,3 +228,83 @@
 [2026-02-13T09:09:23.363+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:09:23.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
 [2026-02-13T09:09:24.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
 [2026-02-13T09:09:24.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.140 seconds
+[2026-02-13T09:09:54.737+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:09:54.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:09:54.739+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:09:54.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:09:55.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:09:55.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.105 seconds
+[2026-02-13T09:10:26.106+0000] {processor.py:161} INFO - Started process (PID=1801) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:26.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:10:26.113+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:10:26.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:28.135+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:28.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 2.116 seconds
+[2026-02-13T09:10:58.585+0000] {processor.py:161} INFO - Started process (PID=1837) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:58.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:10:58.588+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:10:58.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:59.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:10:59.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.317 seconds
+[2026-02-13T09:11:30.143+0000] {processor.py:161} INFO - Started process (PID=1855) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:11:30.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:11:30.146+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:11:30.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:11:31.404+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:11:31.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.284 seconds
+[2026-02-13T09:12:01.713+0000] {processor.py:161} INFO - Started process (PID=1884) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:01.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:12:01.716+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:12:01.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:02.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:02.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.157 seconds
+[2026-02-13T09:12:33.085+0000] {processor.py:161} INFO - Started process (PID=1959) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:33.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:12:33.087+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:12:33.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:34.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:12:34.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.576 seconds
+[2026-02-13T09:13:04.782+0000] {processor.py:161} INFO - Started process (PID=1978) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:04.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:13:04.784+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:13:04.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:05.827+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:05.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.071 seconds
+[2026-02-13T09:13:36.070+0000] {processor.py:161} INFO - Started process (PID=1996) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:36.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:13:36.074+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:13:36.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:37.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:13:37.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.373 seconds
+[2026-02-13T09:14:07.683+0000] {processor.py:161} INFO - Started process (PID=2035) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:07.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:14:07.686+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:14:07.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:09.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:09.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.518 seconds
+[2026-02-13T09:14:39.440+0000] {processor.py:161} INFO - Started process (PID=2092) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:39.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:14:39.443+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:14:39.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:40.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:14:40.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.068 seconds
+[2026-02-13T09:15:10.743+0000] {processor.py:161} INFO - Started process (PID=2110) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:10.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:15:10.745+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:15:10.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:11.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:11.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.053 seconds
+[2026-02-13T09:15:42.269+0000] {processor.py:161} INFO - Started process (PID=2128) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:42.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:15:42.272+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:15:42.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:43.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:15:43.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.129 seconds
+[2026-02-13T09:16:13.622+0000] {processor.py:161} INFO - Started process (PID=2167) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:13.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:16:13.625+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:16:13.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:14.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:14.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.174 seconds
+[2026-02-13T09:16:45.018+0000] {processor.py:161} INFO - Started process (PID=2224) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:45.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:16:45.021+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:16:45.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:46.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:16:46.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.321 seconds
+[2026-02-13T09:17:16.592+0000] {processor.py:161} INFO - Started process (PID=2242) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:16.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:17:16.595+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:17:16.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:17.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:17.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.363 seconds
+[2026-02-13T09:17:48.203+0000] {processor.py:161} INFO - Started process (PID=2260) to work on /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:48.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/wallet_trust_score_dag.py for tasks to queue
+[2026-02-13T09:17:48.207+0000] {logging_mixin.py:188} INFO - [2026-02-13T09:17:48.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:49.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/wallet_trust_score_dag.py
+[2026-02-13T09:17:49.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/wallet_trust_score_dag.py took 1.334 seconds

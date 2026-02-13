@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Инициализация базы
+
 airflow db init
 
-# Проверяем, есть ли admin
+
 if ! airflow users list | grep -q "^admin"; then
     echo "Creating admin user..."
     airflow users create \
@@ -17,7 +17,7 @@ else
     echo "Admin user already exists, skipping creation."
 fi
 
-# Проверяем, есть ли user2
+
 if ! airflow users list | grep -q "^user2"; then
     echo "Creating user2..."
     airflow users create \

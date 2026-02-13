@@ -9,7 +9,7 @@ CHAIN_ID = 1  # Ethereum Mainnet
 def fetch_blocks_to_mongo():
     """Fetch latest Ethereum blocks and transactions using Etherscan V2, store in MongoDB"""
     try:
-        # 1️⃣ Get latest block number
+        # latest block number
         r = requests.get(BASE_URL, params={
             "chainid": CHAIN_ID,
             "module": "block",
@@ -21,20 +21,20 @@ def fetch_blocks_to_mongo():
 
         latest_block = int(r.get("result", 0))
         if latest_block == 0:
-            print("❌ Failed to fetch latest block")
+            print(" Failed to fetch latest block")
             return
 
     except Exception as e:
-        print("❌ Error fetching latest block:", e)
+        print(" Error fetching latest block:", e)
         return
 
-    # 2️⃣ Connect to MongoDB
+    # Connect to MongoDB
     mongo = MongoClient("mongodb://mongodb:27017")
     db = mongo["eth_db"]
     blocks_col = db["blocks"]
     tx_col = db["transactions"]
 
-    # 3️⃣ Fetch last 10 blocks
+    # Fetch last 10 blocks
     for block_number in range(latest_block, latest_block - 10, -1):
         try:
             block_hex = hex(block_number)
@@ -76,7 +76,7 @@ def fetch_blocks_to_mongo():
                 tx_col.update_one({"hash": tx_doc["hash"]}, {"$set": tx_doc}, upsert=True)
 
         except Exception as e:
-            print(f"❌ Error processing block {block_number}: {e}")
+            print(f"Error processing block {block_number}: {e}")
 
     mongo.close()
-    print("✅ Latest blocks & transactions stored in MongoDB")
+    print("atest blocks & transactions stored in MongoDB")
